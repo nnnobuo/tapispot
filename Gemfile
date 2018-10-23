@@ -60,6 +60,7 @@ end
 
 gem 'bootstrap'
 gem 'pry-rails'
+gem 'devise'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
