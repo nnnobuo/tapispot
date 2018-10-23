@@ -1,1 +1,22 @@
-<h1>index</h1>
+<h1>投稿できるかチェック</h1>
+
+<%= form_for @post, url: {action: "create"} do |f| %>
+
+<div class="">
+  <%= f.label :お店の名前 %>
+  <%= f.text_field :shop_name %>
+</div>
+
+<div class="">
+  <%= f.label :タイトル %>
+  <%= f.text_field :post_title %>
+</div>
+
+<div class="">
+  <%= f.label :本文 %>
+  <%= f.text_area :post_body %>
+</div>
+
+<%= f.submit %>
+
+<% end %>
