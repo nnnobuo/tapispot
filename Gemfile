@@ -59,6 +59,7 @@ group :test do
 end
 
 gem 'bootstrap'
+gem 'pry-rails'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
